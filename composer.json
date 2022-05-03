@@ -1,0 +1,13 @@
+{
+    "name": "mac/poo_mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "controllers/",
+            "App\\Models\\": "models/",
+            "App\\Core\\": "core/",
+            "App\\Exception\\": "exceptions/"
+
+        }
+    },
+    "require": {}
+}
